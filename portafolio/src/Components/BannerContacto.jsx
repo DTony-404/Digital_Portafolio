@@ -4,6 +4,11 @@ import styled from 'styled-components'
 const Box = styled.div`
 background: linear-gradient(135deg, #9EF1E9 0%, #32F4E2 100%);
 `
+const FormL = styled.div`
+@media (max-width: 680px){
+    width:90vw !important;
+}
+`
 
 const InputLocal = styled.input`
  height: 64px;
@@ -17,9 +22,8 @@ const InputLocal2 = styled.textarea`
 
 export default function BannerContacto(){
     return(
-        <Box>
-            <Container className="d-flex justify-content-center">
-                <div className="bg-dark w-50 d-flex flex-column justify-content-center align-items-center m-5">
+        <Box className="d-flex justify-content-center">
+                <FormL className="bg-dark w-50 d-flex flex-column justify-content-center align-items-center mt-5 mb-5">
                     <h1 className="text-light">Contacto</h1>
                     <h5 className="text-secondary w-75 m-3">Si estas interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto.</h5>
 
@@ -30,8 +34,7 @@ export default function BannerContacto(){
                     <Button variant="primary" size="lg" className="m-3">
                         Enviar mensaje
                     </Button>
-                </div>
-            </Container>
+                </FormL>
         </Box>
     )
 }
