@@ -1,6 +1,5 @@
 import {Col, Row, Container, Button} from 'react-bootstrap'
 import styled from 'styled-components'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Box = styled.div`
 background: linear-gradient(135deg, #9EF1E9 0%, #32F4E2 100%);
