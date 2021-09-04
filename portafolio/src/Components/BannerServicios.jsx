@@ -9,7 +9,7 @@ background: linear-gradient(135deg, #9EF1E9 0%, #32F4E2 100%);
 
 export default function BannerServicios(){
     return(
-        <Box>
+        <Box id="servicio">
             <Container >
                 <br />
                 <h1 className="text-center m-3">Servicios</h1>

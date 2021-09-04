@@ -14,7 +14,7 @@ justify-content: center;
 
 export default function BannerInicial(){
     return(
-        <Box>
+        <Box id="Hola">
             <Container>
                 <Row>
                     <Col xs={12} md={7}>

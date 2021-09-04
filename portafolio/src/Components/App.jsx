@@ -12,7 +12,7 @@ export default function App(){
     return(
         <div>
             <Nav_Bar />
-            <BannerInicial />
+            <BannerInicial  />
             <BannerProjects />
             <BannerServicios />
             <BannerImg />
