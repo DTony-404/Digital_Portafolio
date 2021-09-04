@@ -39,7 +39,7 @@ export default function BannerProjects(){
                             Un breve tributo a Stan Lee y Steve Jobs en donde relatamos un poco de su historia
                         </h6>
                         <Button variant="primary" className="m-2">Ver proyecto</Button>{' '}
-                        <Button variant="outline-light">Ver código</Button>{' '}
+                        <Button variant="outline-light" className="m-2">Ver código</Button>{' '}
                     </div>
                 </Banner1>
                 <Row>
@@ -51,7 +51,7 @@ export default function BannerProjects(){
                                 Un breve tributo a Stan Lee y Steve Jobs en donde relatamos un poco de su historia
                             </h6>
                             <Button variant="primary" className="m-2">Ver proyecto</Button>{' '}
-                            <Button variant="outline-light">Ver código</Button>{' '}
+                            <Button variant="outline-light" className="m-2">Ver código</Button>{' '}
                         </div>
                         </Banner2>
                     </Col>
@@ -63,7 +63,7 @@ export default function BannerProjects(){
                             Un breve tributo a Stan Lee y Steve Jobs en donde relatamos un poco de su historia
                         </h6>
                         <Button variant="primary" className="m-2">Ver proyecto</Button>{' '}
-                        <Button variant="outline-light">Ver código</Button>{' '}
+                        <Button variant="outline-light" className="m-2">Ver código</Button>{' '}
                     </div>    
                     </Banner3>
                     </Col>

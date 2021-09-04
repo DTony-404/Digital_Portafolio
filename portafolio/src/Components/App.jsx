@@ -4,7 +4,7 @@ import BannerProjects from './BannerProjects'
 import BannerServicios from './BannerServicios'
 import BannerImg from './BannerImg'
 import BannerContacto from './BannerContacto'
-
+import Footer from './Footer'
 
 
 // #212529
@@ -17,6 +17,7 @@ export default function App(){
             <BannerServicios />
             <BannerImg />
             <BannerContacto />
+            <Footer />
         </div>
     )
 }
